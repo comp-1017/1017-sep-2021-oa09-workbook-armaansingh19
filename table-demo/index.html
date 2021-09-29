@@ -1,0 +1,71 @@
+<html lang="en-us">
+    <head>
+        <title>
+Table DEMO
+        </title>
+        <meta charset="utf=8">
+    </head>
+    <body><h1>
+        Table DEMO
+    </h1>
+    <p>
+        A table is a way of creating a structured grid display of data the paired tags (open?close) we will be interested in are:
+    </p>
+    <ul>
+        <li>&lt;table&gt; : identifies the start of the table</li>
+        <li>&lt;thead&gt; : identifies the header row of the table</li>
+        <li>&lt;tbody&gt; : identifies the data detail body of the table</li>
+        <li>&lt;tfoot&gt; : identifies the footer row of the table</li>
+        <li>&lt;tr&gt; : identifies the start of a row on the table</li>
+        <li>&lt;th&gt; : identifies the cell in the header row for the coloum title</li>
+        <li>&lt;td&gt; : identifies the cell on the detail row or footer row to hold content</li>
+    </ul>
+    <P>
+        some tag have parameters. The border parameter of the table applies a border around your table. the colospan parameter and rowspan parameter are used on the &lt;td&gt; tab allow you to merge colums on a single row or column cells across rows.
+    </P>
+    <table border="1">
+        <thead
+        ><tr>
+<th></th>
+<th>Course#</th>
+<th>Name</th>
+<th>Hours</th>
+<th>Pass Criteria</th>
+</tr>
+
+        </thead>
+        <tbody>
+            <tr>
+                <td><img src="img/telephone.png" alt="telephone"></td>
+                <td><a href="#">COMP17</a></td>
+                <td>Web Design Fundamentals 1</td>
+                <td>60</td>
+                <td>overall 50 %</td>
+            </tr>
+            <tr>
+                <td><img src="img/money.png" alt="money"></td>
+                <td>COMP1008</td>
+                <td><b>Digital</b><strong>Graphic</strong> <i> Design</i><em> Tools</em></td>
+                <td align="center" valign="top">60</td>
+                <td><u>overall</u> 50 %</td>
+            </tr>
+            <tr>
+                <td><img src="img/computer.png" alt="computer"></td>
+                <td>CPSC1517</td>
+                <td>intoduction to application development</td>
+                <td>90</td>
+                <td>overall 50 % and minimum 50% in theory and project component</td>
+            </tr>
+
+        </tbody>
+        <tfoot>
+            <tr>
+        <td></td>
+                <td colspan="2">total hours</td>
+                <td>120</td>
+                <td></td>
+            </tr>
+        </tfoot>
+    </table>
+    </body>
+</html>
